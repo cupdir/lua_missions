@@ -1,9 +1,1 @@
-local function tom()
-  return 'haiquan'
-end
-local username = tom()
-if username ~= 'haiquan' then
-  system.gray()
-else
-  system.pass()
-end
+print(string.format("%10$10.10d, %9$09d, %8$08d, %7$07d, %6$06d, %5$05d, %4$04d, %3$03d, %2$02d, %1$1d", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
