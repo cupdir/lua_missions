@@ -1,6 +1,4 @@
-local person = {}
-
-person.id = 'kikito'
-person.speak = function() return 'hello there!' end
-
-return person
+local table = {}
+if type(table) == 'table' then
+  system.print('is table')
+end
