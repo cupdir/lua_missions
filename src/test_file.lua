@@ -1,4 +1,7 @@
-local table = {}
-if type(table) == 'table' then
-  system.print('is table')
+local function tom()
+  return 'haiquan'
+end
+local username = tom()
+if username ~= 'haiquan' then
+  system.gray()
 end
