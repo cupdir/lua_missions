@@ -1,7 +1,7 @@
---根据cookie获取用户id
+--获取用户IP
 
-local userid = request.cookie('userid')
+local ip = request.ip
 
-if userid == '1' then
+if ip == '127.0.0.1' then
   
 end
