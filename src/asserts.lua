@@ -1,6 +1,6 @@
---获取用户id
+--根据cookie获取用户id
 
-local userid = request.get.userid
+local userid = request.cookie('userid')
 
 if userid == '1' then
   
