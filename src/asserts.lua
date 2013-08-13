@@ -1,5 +1,5 @@
-if source.close == true then --从数据源中得到是否关站
-  proxy.redirect(source.jump) -- 跳转到某个地址
-else
-  proxy.pass() --代理到正常服务器
+local 黄牛 = {126,32,43,54,6,7,8,5,32,23}
+
+if 黄牛[request.get.id] ~= nil then
+    proxy.redirect(source.error_jump)  
 end
