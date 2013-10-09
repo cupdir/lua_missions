@@ -1,3 +1,3 @@
 --获取用户uid
-local uid = http.get().uid
+local uid = http.getcookie('userId')
 
