@@ -1,3 +1,2 @@
---获取用户uid
-local uid = http.getcookie('userId')
+http.setcookie('hello_man','hi',system.time()+ 3600 ,'.domain.com')
 
